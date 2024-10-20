@@ -16,3 +16,6 @@ X.title = "reflectance"
 X.x.title = "Wavelength"
 X.x.units = "nm"
 _ = X.plot(cmap=None)
+
+Y = ds_list[3]
+_ = Y.T.plot(cmap=None, legend=Y.x.labels)
