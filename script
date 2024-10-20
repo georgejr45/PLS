@@ -5,3 +5,9 @@ import spectrochempy as scp
 
 # Download the dataset
 ds_list = scp.read("http://www.eigenvector.com/data/Corn/corn.mat")
+
+# The dataset, originally collected at Cargill, includes 80 corn samples measured using three different NIR spectrometers. 
+# Along with these measurements, the dataset contains the moisture, oil, protein, and starch values for each sample. 
+# The 5th dataset, named 'm5spec', consists of NIR spectra for the 80 corn samples, all recorded on the same instrument. 
+# Let’s assign this NIR spectra data to X, add some additional information, and then plot it: %%.
+
