@@ -11,3 +11,8 @@ ds_list = scp.read("http://www.eigenvector.com/data/Corn/corn.mat")
 # The 5th dataset, named 'm5spec', consists of NIR spectra for the 80 corn samples, all recorded on the same instrument. 
 # Let’s assign this NIR spectra data to X, add some additional information, and then plot it: %%.
 
+X = ds_list[4]
+X.title = "reflectance"
+X.x.title = "Wavelength"
+X.x.units = "nm"
+_ = X.plot(cmap=None)
