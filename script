@@ -1,10 +1,4 @@
-import markdown
 
-# import the spectrochempy package
-import spectrochempy as scp
-
-# Download the dataset
-ds_list = scp.read("http://www.eigenvector.com/data/Corn/corn.mat")
 
 
 
