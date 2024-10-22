@@ -13,7 +13,5 @@ ds_list = scp.read("http://www.eigenvector.com/data/Corn/corn.mat")
 
 X = ds_list[4]
 X.title = "reflectance"
-X.x.title = "Wavelength"
-X.x.units = "nm"
-_ = X.plot(cmap=None)
+
 
